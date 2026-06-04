@@ -1,19 +1,60 @@
-# Astro Starter Kit: Blog
+> ⭐️ Love this theme? Star it to support our work!
 
-```sh
-npm create astro@latest -- --template blog
-```
+# ProCleaning: Cleaning services website landing page
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A modern, responsive landing page template for cleaning service businesses. Built with Astro and Tailwind CSS, ProCleaning helps cleaning companies showcase their services, team, testimonials, and contact information with a fast, professional, and conversion-focused design.
+
+> ⚡ Built with Astro 6, Tailwind CSS 4 & DaisyUI, and Markdown — optimized for performance, SEO, and simplicity.
+
+![Template Preview](https://github.com/anastasiiaxfr/ProCleaning/blob/main/public/theme/og_1200x630.jpg)
+
+## Demo
+
+- ✨ [Live Demo](https://pro-cleaning-eta.vercel.app/)
+- 💨 [PageSpeed Insights Report](https://pagespeed.web.dev/analysis/https-pro-cleaning-eta-vercel-app/i1cp4fvfla?form_factor=mobile)
+- [Sitemap.xml](https://pro-cleaning-eta.vercel.app//sitemap-index.xml)
+- [Robots.txt](https://pro-cleaning-eta.vercel.app//robots.txt)
+- [Schema.org validator](https://search.google.com/test/rich-results/result?id=Xz43gQTsgKUxMJzb-N78WQ)
+- [RSS](https://pro-cleaning-eta.vercel.app/rss.xml)
 
 Features:
 
 - ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
+- ✅ 99+/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and meta tags, Open Graph data, JSON-LD schema and PWA
+- ✅ Sitemap, robots.txt support
 - ✅ Markdown & MDX support
+- ✅ Fully responsive and accessible
+- ✅ Easily deploy to Vercel, Netlify, or Cloudflare Pages
+
+Pages:
+
+- home
+- contacts
+- team
+- team detail
+- service
+- service detail
+- blog
+- blog detail
+- 404 / 500
+
+## PWA support
+
+![pwa](https://github.com/anastasiiaxfr/ProCleaning/blob/main/public/theme/3.jpg)
+
+## Google pages speed
+
+![mobile](https://github.com/anastasiiaxfr/ProCleaning/blob/main/public/theme/1.jpg)
+![desktop](https://github.com/anastasiiaxfr/ProCleaning/blob/main/public/theme/2.jpg)
+
+## Open Graph Card
+
+![Facebook](https://github.com/anastasiiaxfr/ProCleaning/blob/main/public/theme/5.jpg)
+![Telegram](https://github.com/anastasiiaxfr/ProCleaning/blob/main/public/theme/4.jpg)
+
+Main color changed to Luminance color:
+[Luminance color](https://app.contrast-finder.org/result.html?foreground=%23FFF&background=%2336B864&ratio=4.5&isBackgroundTested=true&algo=Rgb&lang=uk)
 
 ## 🚀 Project Structure
 
@@ -33,14 +74,6 @@ Inside of your Astro project, you'll see the following folders and files:
 └── tsconfig.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -58,6 +91,8 @@ All commands are run from the root of the project, from a terminal:
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-## Credit
+## 🛠 Credits
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+Made with ❤️ by [anastasiiaxfr](https://github.com/anastasiiaxfr/ProCleaning)
+
+ProCleaning is inspired by the free [ProCleaning Theme](https://www.figma.com/community/file/1382254995439883455/cleaning-services-website-landing-page)
