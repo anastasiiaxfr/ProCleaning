@@ -8,23 +8,27 @@ const isHome = Astro.url.pathname === "/";
 
 <header class="header">
   <div class="navbar w-full">
-    <div class="container flex items-center justify-between">
+    <div
+      class="container grid grid-cols-[204px_1fr] lg:grid-cols-[204px_1fr_auto] items-center"
+    >
       <Logo />
 
       <Navabar />
-      <a
-        href="#"
-        class="hidden sm:flex btn bg-main border-main text-white rounded-lg hover:bg-green-600 ml-auto"
-        >Get a quote</a
-      >
-      <div class="flex-none lg:hidden">
-        <label
-          for="my-drawer-2"
-          aria-label="open sidebar"
-          class="btn btn-square btn-ghost ml-2"
+      <div class="flex gap-3 ml-auto">
+        <a
+          href="#"
+          class="hidden sm:flex btn bg-main border-main text-white rounded-lg hover:bg-green-600"
+          >Get a quote</a
         >
-          <Icon name="lucide:menu" />
-        </label>
+        <div class="flex-none lg:hidden">
+          <label
+            for="my-drawer-2"
+            aria-label="open sidebar"
+            class="btn btn-square btn-ghost ml-2"
+          >
+            <Icon name="lucide:menu" />
+          </label>
+        </div>
       </div>
     </div>
   </div>
